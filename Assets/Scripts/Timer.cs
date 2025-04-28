@@ -16,6 +16,7 @@ public class Timer : MonoBehaviour
     public GameObject Enemy; // ゲームの本体（プレイヤーや敵など）
     public GameObject EnemyObject; // EnemyObject を参照
     public GameObject EnemyGenerator;
+    private bool timerIsRunning = false;
 
 
     public float CurrentTime

@@ -8,7 +8,7 @@ public class EnemyGenerator : MonoBehaviour
 
     void Start()
     {
-        InvokeRepeating("GenRock", 1/2,1 );
+        InvokeRepeating("GenRock", 1/5,1 );
     }
 
     void GenRock()
